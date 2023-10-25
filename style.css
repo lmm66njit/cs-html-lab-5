@@ -1,0 +1,24 @@
+a {color: rgb(255, 0, 230)}
+
+table,th,td {border: 2px solid black}
+th {background-color: lightgrey;}
+th,td {padding: 10px;}
+table {margin-top: 100px;margin-bottom: 100px; margin-right: 100px;margin-left: 100px;width: 100%;}
+
+p {color:green; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+
+h1 {background-color: rgb(255, 117, 234); color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+h3 {background-color: bisque;color:rgb(98, 56, 16);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+.img1,.img2,.img3 {border: 5px red; border-style: dashed; padding: 30px }
+
+.p2 {text-align: center;text-decoration: underline;text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;font-size: 25px;}
+
+.item2 /*visited link*/
+    :visited{color: gray}
+.item1 /*mouse over link*/
+    :hover{color: red}
+.item3 /*selected link*/
+    :active{color: orange}
